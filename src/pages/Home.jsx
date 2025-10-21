@@ -102,7 +102,7 @@ const Home = ({ onNavigate = () => {} }) => {
       <div className="bg-[#f5ebe0] pb-0">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left: image */}
+         
             <div className="order-1 lg:order-1 flex justify-center lg:justify-start">
               <div className="relative w-full max-w-md lg:max-w-full">
                 <div className="rounded-2xl overflow-hidden shadow-2xl">
@@ -113,7 +113,6 @@ const Home = ({ onNavigate = () => {} }) => {
                 </div>
               </div>
             </div>
-
             {/* Right: content */}
             <div className="order-2 lg:order-2">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold leading-tight text-gray-900 mb-4">
@@ -123,7 +122,6 @@ const Home = ({ onNavigate = () => {} }) => {
                 Curated treats for your furry friends — organic, healthy, and delicious. 
                 Hand-selected to keep tails wagging and purrs coming.
               </p>
-
               <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-3 sm:space-y-0">
                 <button
                   onClick={() => window.scrollTo({ top: 800, behavior: 'smooth' })}
@@ -131,7 +129,6 @@ const Home = ({ onNavigate = () => {} }) => {
                 >
                   Shop Now
                 </button>
-
                 <button
                   onClick={() => window.scrollTo({ top: 1400, behavior: 'smooth' })}
                   className="w-full sm:w-auto inline-block bg-white border border-gray-200 px-6 py-3 rounded-lg font-medium text-center"
@@ -173,7 +170,6 @@ const Home = ({ onNavigate = () => {} }) => {
 
           {/* Clearance Sale Banner */}
           <section className="mt-12">
-            
             <div className="flex flex-col lg:flex-row items-center justify-between bg-[#fdf4ec] rounded-2xl p-8 lg:p-12 shadow-sm">
               {/* Left: Text */}
               <div className="flex-1 lg:pr-12 text-center lg:text-left">
@@ -188,7 +184,6 @@ const Home = ({ onNavigate = () => {} }) => {
                   Shop All →
                 </button>
               </div>
-
               {/* Right: Image */}
               <div className="flex-1 flex justify-center lg:justify-end mt-8 lg:mt-0">
                 <div className="relative w-full max-w-sm lg:max-w-md">

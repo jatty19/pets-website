@@ -38,7 +38,6 @@ const Blog = ({ onNavigate = () => {} }) => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Blog Section */}
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
@@ -50,7 +49,6 @@ const Blog = ({ onNavigate = () => {} }) => {
               READ ALL
             </button>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
             {blogPosts.map((post, index) => {
               const [day, month] = post.date.split(" ");
@@ -63,7 +61,6 @@ const Blog = ({ onNavigate = () => {} }) => {
                       <div className="text-sm font-bold text-amber-600">{day}</div>
                       <div className="text-xs text-gray-500">{month}</div>
                     </div>
-
                     {post.image ? (
                       <img
                         src={post.image}

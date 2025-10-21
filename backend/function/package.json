@@ -1,0 +1,12 @@
+{
+  "name": "pet-treat-api",
+  "version": "1.0.0",
+  "description": "Newsletter API for All Natural Pet Treat Box",
+  "main": "api/subscribe.js",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
